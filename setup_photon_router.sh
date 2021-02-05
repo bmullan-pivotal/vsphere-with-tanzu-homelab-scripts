@@ -22,8 +22,8 @@ if [ ${SETUP_DNS_SERVER} -eq 1 ]; then
 
     local-zone: "tanzu.local." static
 
-    local-data: "router.tanzu.local A 192.168.177.2"
-    local-data-ptr: "192.168.177.2 router.tanzu.local"
+    local-data: "router.tanzu.local A 192.168.177.3"
+    local-data-ptr: "192.168.177.3 router.tanzu.local"
 
     local-data: "vcsa.tanzu.local A 192.168.177.5"
     local-data-ptr: "192.168.177.5 vcsa.tanzu.local"
